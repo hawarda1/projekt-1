@@ -130,6 +130,49 @@ flex: 1 0 auto;
     color: #ffffff;
 }
 
+/* Alpha 9 Features section */
+#alpha9-features {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#alpha9-features h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#alpha9-benefits>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#alpha9-benefits p {
+    padding: 0 20px;
+}
+
+#alpha9-benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url('../images/why.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#alpha-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Footer */
 #social-networks {
@@ -194,4 +237,33 @@ flex: 1 0 auto;
                     #menu a:hover {
                         border-bottom: 1px solid #3a3a3a;
                     }
+
 }
+@media screen and (min-width: 1200px) {
+
+    /* Reasons section */
+    #alpha9-benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #alpha9-benefits > div {
+        flex: 1;
+    }
+
+    #alpha-image {
+        order: 0
+    }
+
+    #alpha9-mental {
+        order: 1;
+    }
+
+    #alpha9-mental > div {
+        align-self: flex-start;
+    }
+
+    #alpha9-physical > div {
+        align-self: flex-end;
+    }
+                
