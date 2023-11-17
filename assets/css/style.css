@@ -19,6 +19,13 @@ body {
     font-family: 'Titillium', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Titillium', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -37,12 +44,6 @@ header a
     color: inherit;
 }
 
-h1 {
-    font-family: 'Titillium', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
 
 #menu
 {
@@ -113,6 +114,23 @@ flex: 1 0 auto;
     background: url("../images/alpha9.jpg") no-repeat center center/cover;
 }
 
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(197, 194, 194, 0.7);
+    font-size: 110%;
+    position: absolute;
+    top: 60px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#cover-text>h2, #cover-text>h3 {
+    color: #ffffff;
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -164,4 +182,16 @@ flex: 1 0 auto;
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+                /* Hero image */
+                #cover-text {
+                    width: 300px;
+                    right: 700px;
+                }
+                }
+        
+                /* Large devices (laptops and desktops, 992px and up) */
+                @media screen and (min-width: 992px) {
+                    #menu a:hover {
+                        border-bottom: 1px solid #3a3a3a;
+                    }
 }
