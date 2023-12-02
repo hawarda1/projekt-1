@@ -38,7 +38,14 @@ The [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text
     - Git was used to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the project's code after being pushed from Git.
-  
+
+### Accessibility
+
+The website was produced with accessibility in mind and made sure the website is user friendly as much as it can be. I tested the website in Chrome and on [a11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/).
+
+
+### Bugs
+Had some minor issues with OSError: [Errno 98] Address already in use when trying to access the website. Solved by opening ports and clicking on "browser"  
 
 ## Validators
 
