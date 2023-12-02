@@ -269,7 +269,7 @@ main {
 
 .background-image {
     position: relative;
-    background-image: url("../images/sony-alpha9.jpg");
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -296,7 +296,7 @@ main {
     width: 100%;
     padding-bottom: 56.25%;
     /* 16:9 aspect ratio */
-    margin-top: 20px;
+    margin-top: 0px;
     /* Add space between video and text */
 }
 
@@ -486,4 +486,21 @@ p {
     font-size: 16px;
     color: #555;
     margin-bottom: 10px;
+}
+
+#video-content {
+    display: flex;
+    grid-template-columns: 58% 38%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 45px;
+    grid-row-gap: 0px;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 4rem 2rem;
+    justify-content: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
