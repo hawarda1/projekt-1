@@ -1,6 +1,6 @@
 The First Project Portfolio of CI
 
-Project URL: [View live project](https://hawarda1.github.io/projekt-1 "The Website")
+Project URL: [View live project](https://hawarda1.github.io/projekt-1/ "The Website")
 
 
 ## User Experience (UX)
