@@ -93,9 +93,9 @@ How to deploy this project:
 
 ### Content, Images, and Videos
 
-I took all content, images, and videos for the product from the brand's actual product page of their website and from pexels.com. The author (I) of this project and the brand is not connected/affiliated or corporated with one another in any way, and all content, images, and videos are the brand's intellectual properties only.
+All visual content, including images sourced from pexels.com and the video obtained from Sony, originates from the brand's official product page and authorized platforms. The creator (I) of this project and the brand maintain no direct affiliation or corporate association. It is essential to acknowledge that all content, images, and videos are exclusive intellectual properties of the brand.
 
-I have no right to any content, images, and videos used for this project. All ownership of these assets is of www.sony.com only.
+Ownership of the utilized content, images, and videos resides solely with www.sony.com. I do not claim any rights to these assets, and they are recognized as the proprietary materials of the aforementioned website.
 
 
 ## Acknowledgement
