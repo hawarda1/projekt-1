@@ -1,39 +1,100 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+The First Project Portfolio of CI
 
-Welcome,
+Project URL: [View live project](https://8000-hawarda1-projekt-1-f1ce4ahvxl.us2.codeanyapp.com/index.html "The Website")
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## User Experience (UX)
 
-## Codeanywhere Reminders
+ ### User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+#### Goals for First-Time Visitors
 
-`python3 -m http.server`
+1. Upon my initial visit, I aim to quickly grasp the primary purpose of the website.
+2. I want to navigate effortlessly across the site to discover the content that the organization has intended for me to explore.
+3. It's important for me, as a first-time visitor, to identify elements that establish the site's credibility.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+#### Goals for Returning Visitors
+1. As a returning visitor, I look forward to showcasing the features of the camera to my family and friends.
+2. Additionally, I plan to share the website with my social media contacts.
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Design
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+ ### Color Palette
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The two primary colors employed in the design are black (#3A3A3A) and white (#FFFFFF), complemented by two additional sub-colors:blue and grey.
 
-To log into the Heroku toolbelt CLI:
+   #### Typography
+ 
+The [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=Sony%20alpha%209%20III&preview.text_type=custom#standard-styles) font is the main font used with Sans Serif as the fallback font.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Frameworks, Libraries & Programs Used
 
----
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts where used to download the 'Titillium Web' to the assets folder.
+2. [Git](https://git-scm.com/)
+    - Git was used to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the project's code after being pushed from Git.
+  
 
-Happy coding!
+## Validators
+
+### HTML
+
+No errors are displayed when passed through the official W3C validator of all three pages.
+
+### CSS
+
+No errors are displayed when passed through the official W3C Jigsaw validator of all three pages.
+
+## Deployment
+
+### Fork
+
+How to fork this repository:
+
+1. Log in to GitHub and navigate to [this repository](https://github.com/hawarda1/projekt-1/).
+2. You'll see a button called <b>Fork</b> on the top right side of the page. Click the button to create a copy of this repository to your own GitHub account.
+
+### Clone
+
+How to clone this project:
+
+1. Under the repository’s name, click on the <b>Code</b> button.
+2. In the <b>HTTPS</b> tap, click on the clipboard icon to copy the given URL.
+3. In your IDE of choice, open <b>**git bash**</b>.
+4. Change the current working directory to where you want the cloned directory to be.
+5. Type <b>**git clone**</b>, paste the URL copied from GitHub - https://github.com/hawarda1/projekt-1.git.
+6. Press <b>**enter**</b>, and you are done.
+
+
+
+### Deploy
+
+How to deploy this project:
+
+  1. In the GitHub repository, navigate to the <b>Settings</b> tab.
+  2. Once in Settings, navigate to the <b>Pages</b> tab on the left vertical menu.
+  3. Under <b>Source</b>, select the branch to <b>Main/Master</b>, then click <b>Save</b>.
+  4. Once you've selected the master branch, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+
+## Credits
+
+### Content, Images, and Videos
+
+I took all content, images, and videos for the product from the brand's actual product page of their website and from pexels.com. The author (I) of this project and the brand is not connected/affiliated or corporated with one another in any way, and all content, images, and videos are the brand's intellectual properties only.
+
+I have no right to any content, images, and videos used for this project. All ownership of these assets is of www.sony.com only.
+
+
+## Acknowledgement
+
+This project is part of the "Full Stack Software Developer Diploma" at [Code Institute](https://codeinstitute.net/).
+
+Hadi Warda 2023.
+
+  
